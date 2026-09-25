@@ -328,11 +328,11 @@ export default function VoltGuardApp() {
       {/* Header */}
       <header className="border-b border-slate-800 bg-slate-900/70 backdrop-blur-md sticky top-0 z-40 px-4 lg:px-8 py-3.5 flex flex-wrap items-center justify-between gap-4">
         <div className="flex items-center gap-3">
-          <div className="h-10 w-10 rounded-xl bg-gradient-to-tr from-emerald-500 to-teal-400 p-0.5 shadow-lg shadow-emerald-500/20">
-            <div className="h-full w-full bg-slate-950 rounded-[10px] flex items-center justify-center">
-              <Zap className="h-5 w-5 text-emerald-400 fill-emerald-400/20" />
-            </div>
-          </div>
+         <img
+  src="/logo.png"
+  alt="VoltGuard AI Shield Logo"
+  className="h-11 w-11 object-contain rounded-xl drop-shadow-[0_0_12px_rgba(16,185,129,0.35)]"
+/>
           <div>
             <div className="flex items-center gap-2">
               <h1 className="text-xl font-black tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 via-teal-300 to-cyan-400">
