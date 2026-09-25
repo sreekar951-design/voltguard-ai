@@ -895,7 +895,7 @@ export default function VoltGuardApp() {
           <Server className="w-3.5 h-3.5 text-emerald-400" />
           <span>VoltGuard AI • Production Smart Grid Node</span>
         </div>
-        <span>National Energy Hackathon Build</span>
+        <span>© {new Date().getFullYear()} VoltGuard AI. All rights reserved.</span>
       </footer>
     </div>
   );
