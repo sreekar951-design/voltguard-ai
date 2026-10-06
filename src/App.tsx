@@ -328,7 +328,8 @@ export default function VoltGuardApp() {
       {/* Header */}
       <header className="border-b border-slate-800 bg-slate-900/70 backdrop-blur-md sticky top-0 z-40 px-4 lg:px-8 py-3.5 flex flex-wrap items-center justify-between gap-4">
         <div className="flex items-center gap-3">
-         <div className="h-10 w-10 rounded-xl bg-gradient-to-tr from-emerald-500 to-teal-400 p-0.5 shadow-lg shadow-emerald-500/20">
+          {/* ✅ THIS IS YOUR GREEN GLOWING THUNDER SYMBOL (Lines 289-293) */}
+          <div className="h-10 w-10 rounded-xl bg-gradient-to-tr from-emerald-500 to-teal-400 p-0.5 shadow-lg shadow-emerald-500/20">
             <div className="h-full w-full bg-slate-950 rounded-[10px] flex items-center justify-center">
               <Zap className="h-5 w-5 text-emerald-400 fill-emerald-400/20" />
             </div>
